@@ -28,6 +28,11 @@ Numbers
 
 TBD
 
+## Installation
+Clone the respository. 
+- Linux: run `python3 setup.py install`
+- WIndows: run `python3 setup-win.py install`
+
 ## Example code
 
 Lol
