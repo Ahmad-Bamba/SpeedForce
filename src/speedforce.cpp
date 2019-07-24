@@ -19,6 +19,12 @@ static PyObject* spf_add2f(PyObject* self, PyObject* args) {
     return PyFloat_FromDouble(SpeedForce::add2(x));
 }
 
+// greeter class
+typedef struct {
+    PyObject_HEAD
+    /* Somehow interface with the class already made */
+} spf_Greeter;
+
 /*
  ...
  Method table and initialization function

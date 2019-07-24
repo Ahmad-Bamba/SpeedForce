@@ -1,3 +1,5 @@
+#pragma once
+
 namespace SpeedForce {
     template <class T>
     inline T add2(T x) {
